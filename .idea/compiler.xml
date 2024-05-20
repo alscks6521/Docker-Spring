@@ -4,8 +4,6 @@
     <bytecodeTargetLevel>
       <module name="database.database.main" target="17" />
       <module name="database.database.test" target="17" />
-      <module name="database.main" target="17" />
-      <module name="database.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
