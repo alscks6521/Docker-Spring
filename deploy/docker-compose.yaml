@@ -1,3 +1,4 @@
+# services : mysql, redis, app    /   volumes
 services:
   mysql:
     build:

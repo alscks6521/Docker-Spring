@@ -46,6 +46,7 @@ tasks.withType<Test> {
 	useJUnitPlatform()
 }
 
+// BootRun 말고 BootJar사용할 것인데 이름을 app.jar
 tasks.named<BootJar>("bootJar") {
 	archiveFileName.set("app.jar")
 }

@@ -1,8 +1,14 @@
 [SPRING-DATABASE]
 
-### 데이터 베이스 실습
+### Docker
+### Services : mysql, redis, app  
+  
 
-#
-### 접속 방법
-## API (SWAGGER-UI)
-http://localhost:8080/swagger-ui/index.html
+---
+### BootRun X / BootJar 사용
+이름을 app.jar / (build.gradle.kts)
+```kotlin
+tasks.named<BootJar>("bootJar") {
+archiveFileName.set("app.jar")
+}
+```
